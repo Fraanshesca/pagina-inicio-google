@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-main {
+    width: 100%;
+    height: 60px;
+}
+.link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.link li {
+    margin: 0 15px;
+    list-style: none;
+}
+.link li a {
+    color: black;
+    text-decoration: none;
+}
+.link .menu-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/168/168236.png');
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+}
+.link .link-logo {
+    background-image: url('https://scontent.ftcq1-1.fna.fbcdn.net/v/t1.18169-9/11013455_885206538221487_4106799710794394116_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEx7Omj_WcwuG5degdKRJfz22KIG9kRtv7bYogb2RG2_ufUF2nWPd1nVIktc_WS9h-A1QKUPYcOjdbZKEiuOHrN&_nc_ohc=ttibAgFWQSMAX9igTVb&_nc_ht=scontent.ftcq1-1.fna&oh=00_AfAuHeLi3XBI5JLILZQTM23a4o6LhN7lfeanUMu6whOtlA&oe=639D3E3F');
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.main {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-main img {
+    width: 500px;
+    margin-top: 150px;
+}
+.search-main {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.search {
+    width: 550px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.search input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.search:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.search-icon .micro-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+}
+.search-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg');
+}
+.micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    cursor: pointer;
+}
+.button button {
+    padding: 10px;
+    margin-right:15px ;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+}
+.button button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px #0000001a;
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(255, 255, 255, 0.644);
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.footer ul li {
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
